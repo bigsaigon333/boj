@@ -1,6 +1,6 @@
-# boj-with-js
+# boj
 
-이 저장소는 Baekjoon Online Judge(이하 "BOJ") 문제를 오직 자바스크립트로만 풀이하여 해당 답안을 업로드하는 곳입니다.
+이 저장소는 Baekjoon Online Judge(이하 "BOJ") 문제를 자바스크립트로 또는 c++로 풀이하여 해당 답안을 업로드하는 곳입니다.
 
 <br />
 
