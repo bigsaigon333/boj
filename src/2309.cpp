@@ -15,42 +15,25 @@ int main()
     cin >> N[i];
     total += N[i];
   }
+  sort(N, N + 9);
 
-  bool isFound = false;
   for (int i = 0; i < 9; i++)
   {
     for (int j = i + 1; j < 9; j++)
     {
       if (total - N[i] - N[j] == 100)
       {
-        N[i] = MAX_VALUE;
-        N[j] = MAX_VALUE;
-        isFound = true;
-        break;
-      }
+        for (int k = 0; k < 9; k++)
+        {
+          if (k == i || k == j)
+          {
+            continue;
+          }
 
-      if (isFound)
-      {
-        break;
-      }
-    }
-  }
-
-  for (int i = 0; i < 9; i++)
-  {
-    for (int j = i + 1; j < 9; j++)
-    {
-      if (N[i] > N[j])
-      {
-        int temp = N[i];
-        N[i] = N[j];
-        N[j] = temp;
+          cout << N[k] << '\n';
+        }
+        return 0;
       }
     }
-  }
-
-  for (int i = 0; i < 7; i++)
-  {
-    cout << N[i] << '\n';
   }
 }
