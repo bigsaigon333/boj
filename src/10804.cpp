@@ -20,9 +20,7 @@ int main()
 
     while (first < last)
     {
-      int temp = C[first];
-      C[first++] = C[last];
-      C[last--] = temp;
+      swap(C[first++], C[last--]);
     }
   }
 
