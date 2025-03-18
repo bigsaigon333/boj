@@ -3,8 +3,7 @@ using namespace std;
 
 int func2(int arr[], int N)
 {
-  int count[105];
-  fill(count, count + 105, 0);
+  int count[105] = {};
 
   for (int i = 0; i < N; i++)
   {
