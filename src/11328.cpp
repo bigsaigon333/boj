@@ -5,15 +5,19 @@ bool test(string str1, string str2)
 {
   int occur['z' - 'a' + 1] = {};
 
-  for (int i = 0; i < str1.size(); i++)
+  for (char c : str1)
   {
-    occur[str1[i] - 'a']++;
-    occur[str2[i] - 'a']--;
+    occur[c - 'a']++;
   }
 
-  for (int i = 0; i < 'z' - 'a' + 1; i++)
+  for (char c : str2)
   {
-    if (occur[i] != 0)
+    occur[c - 'a']--;
+  }
+
+  for (int o : occur)
+  {
+    if (o != 0)
     {
       return false;
     }
