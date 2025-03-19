@@ -45,7 +45,7 @@
 |    ✅     | 기본 문제✔ | 1475  |     [방 번호](https://www.acmicpc.net/problem/1475)     |                     [정답 코드](../0x03/solutions/1475.cpp)                     |
 |    ✅       | 기본 문제✔ | 3273  |   [두 수의 합](https://www.acmicpc.net/problem/3273)    | [정답 코드](../0x03/solutions/3273.cpp), [별해 1](../0x03/solutions/3273_1.cpp) |
 |           |  기본 문제  | 10807 |   [개수 세기](https://www.acmicpc.net/problem/10807)    |                    [정답 코드](../0x03/solutions/10807.cpp)                     |
-|           |  기본 문제  | 13300 |    [방 배정](https://www.acmicpc.net/problem/13300)     |                    [정답 코드](../0x03/solutions/13300.cpp)                     |
+|     ✅     |  기본 문제  | 13300 |    [방 배정](https://www.acmicpc.net/problem/13300)     |                    [정답 코드](../0x03/solutions/13300.cpp)                     |
 |    ✅     |  기본 문제  | 11328 |     [Strfry](https://www.acmicpc.net/problem/11328)     |                    [정답 코드](../0x03/solutions/11328.cpp)                     |
 |           |  기본 문제  | 1919  | [애너그램 만들기](https://www.acmicpc.net/problem/1919) |                     [정답 코드](../0x03/solutions/1919.cpp)                     |
 
