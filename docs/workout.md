@@ -17,7 +17,7 @@
 |           | 기본 문제✔ | 2480  |  [주사위 세개](https://www.acmicpc.net/problem/2480)   |  [정답 코드](../0x02/solutions/2480.cpp), [별해 1](../0x02/solutions/2480_1.cpp)  |
 |           | 기본 문제✔ | 2490  |     [윷놀이](https://www.acmicpc.net/problem/2490)     |                      [정답 코드](../0x02/solutions/2490.cpp)                      |
 |    ✅     | 기본 문제✔ | 2576  |      [홀수](https://www.acmicpc.net/problem/2576)      |                      [정답 코드](../0x02/solutions/2576.cpp)                      |
-|           | 기본 문제✔ | 2587  |    [대표값2](https://www.acmicpc.net/problem/2587)     |                      [정답 코드](../0x02/solutions/2587.cpp)                      |
+|     ✅     | 기본 문제✔ | 2587  |    [대표값2](https://www.acmicpc.net/problem/2587)     |                      [정답 코드](../0x02/solutions/2587.cpp)                      |
 |    ✅     | 기본 문제✔ | 2309  |  [일곱 난쟁이](https://www.acmicpc.net/problem/2309)   |                      [정답 코드](../0x02/solutions/2309.cpp)                      |
 |    ✅     | 기본 문제✔ | 10093 |     [숫자](https://www.acmicpc.net/problem/10093)      |                     [정답 코드](../0x02/solutions/10093.cpp)                      |
 |    ✅     | 기본 문제✔ | 1267  |  [핸드폰 요금](https://www.acmicpc.net/problem/1267)   |                      [정답 코드](../0x02/solutions/1267.cpp)                      |
