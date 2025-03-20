@@ -9,14 +9,8 @@ int main()
   int N;
   cin >> N;
 
-  while (N)
+  for (int i = N; i > 0; i--)
   {
-    for (int i = 0; i < N; i++)
-    {
-      cout << '*';
-    }
-    cout << '\n';
-
-    N--;
+    cout << string(i, '*') << '\n';
   }
 }
