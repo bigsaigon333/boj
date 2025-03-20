@@ -25,7 +25,7 @@
 |           | 기본 문제✔ | 15552 |   [빠른 A+B](https://www.acmicpc.net/problem/15552)    |                     [정답 코드](../0x02/solutions/15552.cpp)                      |
 |           | 기본 문제✔ | 2438  |  [별 찍기 - 1](https://www.acmicpc.net/problem/2438)   |                      [정답 코드](../0x02/solutions/2438.cpp)                      |
 |           | 기본 문제✔ | 2439  |  [별 찍기 - 2](https://www.acmicpc.net/problem/2439)   |                      [정답 코드](../0x02/solutions/2439.cpp)                      |
-|           | 기본 문제✔ | 2440  |  [별 찍기 - 3](https://www.acmicpc.net/problem/2440)   |                      [정답 코드](../0x02/solutions/2440.cpp)                      |
+|     ✅     | 기본 문제✔ | 2440  |  [별 찍기 - 3](https://www.acmicpc.net/problem/2440)   |                      [정답 코드](../0x02/solutions/2440.cpp)                      |
 |           | 기본 문제✔ | 2441  |  [별 찍기 - 4](https://www.acmicpc.net/problem/2441)   |                      [정답 코드](../0x02/solutions/2441.cpp)                      |
 |           | 기본 문제✔ | 2442  |  [별 찍기 - 5](https://www.acmicpc.net/problem/2442)   |                      [정답 코드](../0x02/solutions/2442.cpp)                      |
 |           | 기본 문제✔ | 2443  |  [별 찍기 - 6](https://www.acmicpc.net/problem/2443)   |                      [정답 코드](../0x02/solutions/2443.cpp)                      |
