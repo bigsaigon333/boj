@@ -2,7 +2,8 @@
 using namespace std;
 
 const int MAX = 5005;
-int N, K, data[MAX], prv[MAX], nxt[MAX];
+int N, K, prv[MAX], nxt[MAX];
+vector<int> v;
 
 int main()
 {
@@ -11,35 +12,27 @@ int main()
 
   cin >> N >> K;
 
-  if (N == 1)
-  {
-    cout << "<1>";
-    return 0;
-  }
-
   for (int i = 1; i <= N; i++)
   {
-    data[i] = i;
-    prv[i] = i - 1;
-    nxt[i - 1] = i;
+    prv[i] = (i == 1) ? N : i - 1;
+    nxt[i] = (i == N) ? 1 : i + 1;
   }
-  prv[1] = N;
-  nxt[N] = 1;
 
-  cout << '<';
-
-  int cur = 0;
-  while (nxt[cur] != prv[cur])
+  int i = 1;
+  for (int cur = 1; N > 0; cur = nxt[cur])
   {
-    for (int i = 0; i < K; i++)
+    if (i++ % K == 0)
     {
-      cur = nxt[cur];
+      nxt[prv[cur]] = nxt[cur];
+      prv[nxt[cur]] = prv[cur];
+      N--;
+      v.push_back(cur);
     }
-
-    cout << data[cur] << ", ";
-    nxt[prv[cur]] = nxt[cur];
-    prv[nxt[cur]] = prv[cur];
   }
 
-  cout << data[nxt[cur]] << '>';
+  cout << "<";
+  for (size_t i = 0; i < v.size(); i++)
+  {
+    cout << v.at(i) << ((i == v.size() - 1) ? ">" : ", ");
+  }
 }
