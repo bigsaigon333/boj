@@ -14,7 +14,7 @@
 |           | 기본 문제✔ | 9498  |   [시험 성적](https://www.acmicpc.net/problem/9498)    |                      [정답 코드](../0x02/solutions/9498.cpp)                      |
 |    ✅     | 기본 문제✔ | 2752  |    [세수정렬](https://www.acmicpc.net/problem/2752)    |  [정답 코드](../0x02/solutions/2752.cpp), [별해 1](../0x02/solutions/2752_1.cpp)  |
 |           | 기본 문제✔ | 2753  |      [윤년](https://www.acmicpc.net/problem/2753)      |                      [정답 코드](../0x02/solutions/2753.cpp)                      |
-|           | 기본 문제✔ | 2480  |  [주사위 세개](https://www.acmicpc.net/problem/2480)   |  [정답 코드](../0x02/solutions/2480.cpp), [별해 1](../0x02/solutions/2480_1.cpp)  |
+|     ✅     | 기본 문제✔ | 2480  |  [주사위 세개](https://www.acmicpc.net/problem/2480)   |  [정답 코드](../0x02/solutions/2480.cpp), [별해 1](../0x02/solutions/2480_1.cpp)  |
 |           | 기본 문제✔ | 2490  |     [윷놀이](https://www.acmicpc.net/problem/2490)     |                      [정답 코드](../0x02/solutions/2490.cpp)                      |
 |    ✅     | 기본 문제✔ | 2576  |      [홀수](https://www.acmicpc.net/problem/2576)      |                      [정답 코드](../0x02/solutions/2576.cpp)                      |
 |     ✅     | 기본 문제✔ | 2587  |    [대표값2](https://www.acmicpc.net/problem/2587)     |                      [정답 코드](../0x02/solutions/2587.cpp)                      |

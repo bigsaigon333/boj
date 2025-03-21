@@ -1,39 +1,29 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int n, freq[7];
+int a, b, c;
 
 int main()
 {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
 
-  for (int i = 0; i < 3; i++)
-  {
-    cin >> n;
-    freq[n]++;
-  }
+  cin >> a >> b >> c;
 
-  int *mep = max_element(freq + 1, freq + 7);
-  int m = mep - freq;
-
-  if (*mep == 3)
+  if (a == b && b == c)
   {
-    cout << (10000 + m * 1000);
+    cout << (10000 + a * 1000);
   }
-  else if (*mep == 2)
+  else if (a == b || a == c)
   {
-    cout << (1000 + m * 100);
+    cout << (1000 + a * 100);
+  }
+  else if (b == c)
+  {
+    cout << (1000 + b * 100);
   }
   else
   {
-    for (int i = 6; i >= 1; i--)
-    {
-      if (freq[i])
-      {
-        cout << i * 100;
-        break;
-      }
-    }
+    cout << max({a, b, c}) * 100;
   }
 }
